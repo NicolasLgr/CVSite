@@ -105,23 +105,6 @@ a{
 
 }
 
-.competence-python::after{
-    content: "";
-    position: absolute;
-    background-color: cadetblue;
-    width: 10px;
-    height: 20px;
-    margin-left: 20px;
-}
-
-.competence-python::after{
-    content: "";
-    position: absolute;
-    background-color: cadetblue;
-    width: 10px;
-    height: 20px;
-    margin-left: 2px;
-}
 
 .text-competence{
     text-align: center;
