@@ -86,27 +86,56 @@ a{
     bottom: 0px;
 }
 
-.competence-text-droite{
-    background-color: blue;
-    width: 50vh;
+.container .container-competence{
+    width: 450px;
+
+}
+
+/* progress bar  */
+
+.progress-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #333;
+}
+
+.progress {
+    height: 15px;
+    background: #333;
+    border-radius: 0;
+    box-shadow: none;
+    margin-bottom: 15px;
+    overflow: visible
+}
+
+.progress .progress-bar {
+    position: relative;
+    -webkit-animation: animate-positive 2s;
+    animation: animate-positive 2s
+}
+
+.progress .progress-value {
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+    color: black; 
+    position: absolute;
+    top: -30px;
+    right: -25px
+}
+
+.progress .progress-bar:after {
+    content: "";
     display: inline-block;
-    vertical-align: middle;
-    margin: 30px;
-
+    width: 9px;
+    background: #fff;
+    position: absolute;
+    top: -10px;
+    bottom: -10px;
+    right: -5px;
+    z-index: 1;
+    transform: rotate(35deg)
 }
 
 
-.competence-text-gauche{
-    background-color: yellow;
-    width: 50vh;
-    vertical-align: top;
-    display: inline-block;
-    margin: 30px;
 
-}
-
-
-.text-competence{
-    text-align: center;
-    
-}
